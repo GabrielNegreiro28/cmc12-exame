@@ -1,0 +1,29 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Saídas geradas (resultados, figuras e dados baixados)
+# Para incluir os resultados no repositório (ex.: para a entrega),
+# remova a linha abaixo antes de commitar.
+outputs/
+
+# Pacote de entrega e auxiliares do LaTeX
+grupo*_exame.zip
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+relatorio.log
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
